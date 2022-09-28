@@ -10,6 +10,7 @@ private:
 	uint32_t compnum{}, usernum{};
 	uint16_t countofdigits{};
 	uint16_t* usernumarr{};
+	uint16_t* lastcompnumarr{};
 	uint16_t* compnumarr{};
 	uint16_t bulls{}, cows{};
 
@@ -26,6 +27,7 @@ public:
 		cows = 0;
 		usernumarr = new uint16_t(countofdigits);
 		compnumarr = new uint16_t(countofdigits);
+		lastcompnumarr = new uint16_t(countofdigits);
 		srand(time(NULL));
 		do {
 			SetRandomCompNum();
@@ -62,12 +64,10 @@ public:
 	}
 
 	uint32_t GetNextNumber() {
-		if (bulls == 0 && cows == 0) {
+		if ((bulls == 0 && cows == 0) || (bulls = 0 && cows == 1)) {
 			SetRandomCompNum();
+			ToEqualArraysCompNumLastNum();
 			return compnum;
-		}
-		else {
-
 		}
 	}
 
@@ -79,6 +79,25 @@ public:
 private:
 
 private:
+
+	void MoveDigitsExeptOneCompNum(uint16_t excludedigitindex) {
+		uint16_t k;
+		usernumarr[0]++;
+		usernumarr[1] = excludedigitindex;
+		for (int16_t i = 0; i < countofdigits - 1; i++) {
+			if (i == excludedigitindex - 1) continue;
+			if (i == 0) {
+				k = compnumarr[countofdigits];
+
+			}
+		}
+	}
+
+	void ToEqualArraysCompNumLastNum(){
+		for (int16_t i = 0; i < countofdigits - 1; i++) {
+			lastcompnumarr[i] = compnumarr[i];
+		}
+		}
 
 	uint16_t CompareArrays(uint16_t* arr1, uint16_t* arr2) {
 		uint16_t countofequal = 0;
