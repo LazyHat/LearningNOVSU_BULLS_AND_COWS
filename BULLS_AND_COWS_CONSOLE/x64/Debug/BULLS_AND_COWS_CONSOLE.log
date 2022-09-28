@@ -1,0 +1,5 @@
+﻿  BULLS_AND_COWS_CONSOLE.cpp
+C:\Users\LAZYPC\Desktop\BULLS_AND_COWS_CONSOLE\Game.h(29,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\LAZYPC\Desktop\BULLS_AND_COWS_CONSOLE\BULLS_AND_COWS_CONSOLE.cpp(25,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\LAZYPC\Desktop\BULLS_AND_COWS_CONSOLE\Game.h(72): warning C4715: Game::GetNextNumber: значение возвращается не при всех путях выполнения
+  BULLS_AND_COWS_CONSOLE.vcxproj -> C:\Users\LAZYPC\Desktop\BULLS_AND_COWS_CONSOLE\x64\Debug\BULLS_AND_COWS_CONSOLE.exe
