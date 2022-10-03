@@ -1,1 +1,7 @@
-﻿  BULLS_AND_COWS_CONSOLE.vcxproj -> C:\Users\LAZYPC\Documents\GitHub\LearningNOVSU_BULLS_AND_COWS\BULLS_AND_COWS_CONSOLE\x64\Debug\BULLS_AND_COWS_CONSOLE.exe
+﻿  BULLS_AND_COWS_CONSOLE.cpp
+C:\Users\LAZYPC\Documents\GitHub\LearningNOVSU_BULLS_AND_COWS\BULLS_AND_COWS_CONSOLE\BULLS_AND_COWS_CONSOLE.cpp(25,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Game.cpp
+C:\Users\LAZYPC\Documents\GitHub\LearningNOVSU_BULLS_AND_COWS\BULLS_AND_COWS_CONSOLE\Game.cpp(29,47): error C3867: "Game::Rand1digit": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\LAZYPC\Documents\GitHub\LearningNOVSU_BULLS_AND_COWS\BULLS_AND_COWS_CONSOLE\Game.cpp(29,47): error C2672: "generate": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(3567,19): message : может быть "void std::generate(_FwdIt,_FwdIt,_Fn)"
+  Создание кода...
