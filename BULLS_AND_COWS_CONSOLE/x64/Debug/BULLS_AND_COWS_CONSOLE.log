@@ -1,6 +1,0 @@
-﻿  BULLS_AND_COWS_CONSOLE.cpp
-C:\Users\LAZYPC\Documents\GitHub\LearningNOVSU_BULLS_AND_COWS\BULLS_AND_COWS_CONSOLE\Player.h(306,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\LAZYPC\Documents\GitHub\LearningNOVSU_BULLS_AND_COWS\BULLS_AND_COWS_CONSOLE\BULLS_AND_COWS_CONSOLE.cpp(56,5): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\LAZYPC\Documents\GitHub\LearningNOVSU_BULLS_AND_COWS\BULLS_AND_COWS_CONSOLE\BULLS_AND_COWS_CONSOLE.cpp(67,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\LAZYPC\Documents\GitHub\LearningNOVSU_BULLS_AND_COWS\BULLS_AND_COWS_CONSOLE\BULLS_AND_COWS_CONSOLE.cpp(76,61): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  BULLS_AND_COWS_CONSOLE.vcxproj -> C:\Users\LAZYPC\Documents\GitHub\LearningNOVSU_BULLS_AND_COWS\BULLS_AND_COWS_CONSOLE\x64\Debug\BULLS_AND_COWS_CONSOLE.exe
